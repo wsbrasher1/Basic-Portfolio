@@ -1,0 +1,236 @@
+.wrapper {
+    width:1280px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+
+nav {
+    float: right;
+    width: 33%;
+    height: 40px;
+    margin-right: 50px;
+  }
+
+nav ul {
+    display: block;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 20px;
+    line-height: 22px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  a:hover {
+      color: red;
+  }
+
+  .namebox {
+    width: 20%;
+    height: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #4aaaa5;
+    padding-top: 20px;
+    margin-left: 145px;
+    margin-top: -7px;
+    float: left;
+}
+
+#background {
+    width: 1280px;
+    height: 700px;
+    background-image: url(dynamic-style.png);
+    border-top: 2px solid #dddddd;
+    border-bottom: 10px solid #4aaaa5;
+    padding-top: 30px;
+}
+
+#About-Me {
+    width: 960px;
+    height: 50px;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#About-Me:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 99%;
+    padding-top: 23px;
+    border-bottom: 1px solid #dddddd;
+}
+
+#mypic {
+    width: 200px;
+    height: 200px;
+    float: left;
+    padding: 10px;
+}
+#content {
+    width: 960px;
+    height: 475px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+
+#para {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    background-color: white;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.contact-form {
+    width: 960px;
+    height: 475px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #777777;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-right: 15px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+}
+
+input {
+    width: 960px;  
+}
+
+textarea {
+    width: 960px;
+    border: 1px solid #dddddd;
+}
+
+#submit {
+    width: 60px;
+    height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 8px 0px 0px 12px;
+    color: white;
+    background-color: #4aaaa5;
+    cursor: pointer;
+}
+
+.container1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+}
+
+.text-block1 {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.container2 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    float: left;
+    right: 750px;
+}
+
+.text-block2 {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.container3 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    float: left;
+    top: 430px;
+}
+
+.text-block3 {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.container4 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    float: left;
+    top: 430px;
+    right: 750px;
+    border: 1px solid #dddddd
+    
+}
+
+.text-block4 {
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    bottom: 10px;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#bottom-bar {
+    width: 1280px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #666666;
+    padding-top: 20px;
+}
